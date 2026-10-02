@@ -1,5 +1,11 @@
 # Simple Document Search
 
+[![Python](https://img.shields.io/badge/Python-3.12-blue)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688)](https://fastapi.tiangolo.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17-336791)](https://www.postgresql.org/)
+[![Elasticsearch](https://img.shields.io/badge/Elasticsearch-8.15-005571)](https://www.elastic.co/)
+[![Docker](https://img.shields.io/badge/Docker-compose-2496ED)](https://www.docker.com/)
+
 Поисковик по текстам документов: PostgreSQL как хранилище, Elasticsearch как поисковый индекс, FastAPI как API.
 
 ## Стек
