@@ -1,0 +1,14 @@
+FROM python:3.12-slim
+
+# curl нужен для проверки готовности Elasticsearch в entrypoint.sh
+RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+
+COPY . .
+
+RUN chmod +x entrypoint.sh
+
+CMD ["sh", "entrypoint.sh"]

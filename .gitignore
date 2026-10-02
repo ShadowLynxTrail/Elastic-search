@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Логи и кеш
+*.log
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+.env
